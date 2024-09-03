@@ -1,0 +1,15 @@
+C:\Users\Administratör\desktop\Jensen\Queues\bin\Debug\net8.0\Queues.exe
+C:\Users\Administratör\desktop\Jensen\Queues\bin\Debug\net8.0\Queues.deps.json
+C:\Users\Administratör\desktop\Jensen\Queues\bin\Debug\net8.0\Queues.runtimeconfig.json
+C:\Users\Administratör\desktop\Jensen\Queues\bin\Debug\net8.0\Queues.dll
+C:\Users\Administratör\desktop\Jensen\Queues\bin\Debug\net8.0\Queues.pdb
+C:\Users\Administratör\desktop\Jensen\Queues\obj\Debug\net8.0\Queues.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administratör\desktop\Jensen\Queues\obj\Debug\net8.0\Queues.AssemblyInfoInputs.cache
+C:\Users\Administratör\desktop\Jensen\Queues\obj\Debug\net8.0\Queues.AssemblyInfo.cs
+C:\Users\Administratör\desktop\Jensen\Queues\obj\Debug\net8.0\Queues.csproj.CoreCompileInputs.cache
+C:\Users\Administratör\desktop\Jensen\Queues\obj\Debug\net8.0\Queues.sourcelink.json
+C:\Users\Administratör\desktop\Jensen\Queues\obj\Debug\net8.0\Queues.dll
+C:\Users\Administratör\desktop\Jensen\Queues\obj\Debug\net8.0\refint\Queues.dll
+C:\Users\Administratör\desktop\Jensen\Queues\obj\Debug\net8.0\Queues.pdb
+C:\Users\Administratör\desktop\Jensen\Queues\obj\Debug\net8.0\Queues.genruntimeconfig.cache
+C:\Users\Administratör\desktop\Jensen\Queues\obj\Debug\net8.0\ref\Queues.dll
