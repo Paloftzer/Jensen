@@ -11,9 +11,13 @@ class Program
         vehicles.Enqueue("Fiat");
         vehicles.Enqueue("Tesla");
 
-        while (vehicles.Count > 0)
+        while(vehicles.Count > 0)
         {
             Console.WriteLine($"Manufacturer: {vehicles.Dequeue()}");
+        }
+
+        foreach(var vehicle in vehicles){
+            Console.WriteLine($"Manufacturer: {vehicle}");
         }
     }
 }
