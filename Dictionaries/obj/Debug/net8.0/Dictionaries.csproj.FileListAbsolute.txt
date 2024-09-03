@@ -1,0 +1,15 @@
+C:\Users\Administratör\desktop\Jensen\Dictionaries\bin\Debug\net8.0\Dictionaries.exe
+C:\Users\Administratör\desktop\Jensen\Dictionaries\bin\Debug\net8.0\Dictionaries.deps.json
+C:\Users\Administratör\desktop\Jensen\Dictionaries\bin\Debug\net8.0\Dictionaries.runtimeconfig.json
+C:\Users\Administratör\desktop\Jensen\Dictionaries\bin\Debug\net8.0\Dictionaries.dll
+C:\Users\Administratör\desktop\Jensen\Dictionaries\bin\Debug\net8.0\Dictionaries.pdb
+C:\Users\Administratör\desktop\Jensen\Dictionaries\obj\Debug\net8.0\Dictionaries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administratör\desktop\Jensen\Dictionaries\obj\Debug\net8.0\Dictionaries.AssemblyInfoInputs.cache
+C:\Users\Administratör\desktop\Jensen\Dictionaries\obj\Debug\net8.0\Dictionaries.AssemblyInfo.cs
+C:\Users\Administratör\desktop\Jensen\Dictionaries\obj\Debug\net8.0\Dictionaries.csproj.CoreCompileInputs.cache
+C:\Users\Administratör\desktop\Jensen\Dictionaries\obj\Debug\net8.0\Dictionaries.sourcelink.json
+C:\Users\Administratör\desktop\Jensen\Dictionaries\obj\Debug\net8.0\Dictionaries.dll
+C:\Users\Administratör\desktop\Jensen\Dictionaries\obj\Debug\net8.0\refint\Dictionaries.dll
+C:\Users\Administratör\desktop\Jensen\Dictionaries\obj\Debug\net8.0\Dictionaries.pdb
+C:\Users\Administratör\desktop\Jensen\Dictionaries\obj\Debug\net8.0\Dictionaries.genruntimeconfig.cache
+C:\Users\Administratör\desktop\Jensen\Dictionaries\obj\Debug\net8.0\ref\Dictionaries.dll
