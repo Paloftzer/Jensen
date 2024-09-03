@@ -6,9 +6,9 @@ class Program
 {
     static void Main()
     {
-        ArrayList vehicles = [];
+        // ArrayList vehicles = [];
+        List<Vehicle> vehicles = [];
         vehicles.Add(new Vehicle());
-        vehicles.Add(new BankAccount());
 
         foreach(Vehicle car in vehicles)
         {
