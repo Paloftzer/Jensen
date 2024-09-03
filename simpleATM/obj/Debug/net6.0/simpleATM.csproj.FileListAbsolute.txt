@@ -1,0 +1,15 @@
+C:\Users\Paloftzer\desktop\everything\coding\simpleatm\bin\Debug\net6.0\simpleATM.exe
+C:\Users\Paloftzer\desktop\everything\coding\simpleatm\bin\Debug\net6.0\simpleATM.deps.json
+C:\Users\Paloftzer\desktop\everything\coding\simpleatm\bin\Debug\net6.0\simpleATM.runtimeconfig.json
+C:\Users\Paloftzer\desktop\everything\coding\simpleatm\bin\Debug\net6.0\simpleATM.dll
+C:\Users\Paloftzer\desktop\everything\coding\simpleatm\bin\Debug\net6.0\simpleATM.pdb
+C:\Users\Paloftzer\desktop\everything\coding\simpleatm\obj\Debug\net6.0\simpleATM.csproj.AssemblyReference.cache
+C:\Users\Paloftzer\desktop\everything\coding\simpleatm\obj\Debug\net6.0\simpleATM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paloftzer\desktop\everything\coding\simpleatm\obj\Debug\net6.0\simpleATM.AssemblyInfoInputs.cache
+C:\Users\Paloftzer\desktop\everything\coding\simpleatm\obj\Debug\net6.0\simpleATM.AssemblyInfo.cs
+C:\Users\Paloftzer\desktop\everything\coding\simpleatm\obj\Debug\net6.0\simpleATM.csproj.CoreCompileInputs.cache
+C:\Users\Paloftzer\desktop\everything\coding\simpleatm\obj\Debug\net6.0\simpleATM.dll
+C:\Users\Paloftzer\desktop\everything\coding\simpleatm\obj\Debug\net6.0\refint\simpleATM.dll
+C:\Users\Paloftzer\desktop\everything\coding\simpleatm\obj\Debug\net6.0\simpleATM.pdb
+C:\Users\Paloftzer\desktop\everything\coding\simpleatm\obj\Debug\net6.0\simpleATM.genruntimeconfig.cache
+C:\Users\Paloftzer\desktop\everything\coding\simpleatm\obj\Debug\net6.0\ref\simpleATM.dll

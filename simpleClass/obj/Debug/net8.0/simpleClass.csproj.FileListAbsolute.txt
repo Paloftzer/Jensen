@@ -1,0 +1,14 @@
+C:\users\paloftzer\desktop\everything\coding\jensen\simpleClass\bin\Debug\net8.0\simpleClass.exe
+C:\users\paloftzer\desktop\everything\coding\jensen\simpleClass\bin\Debug\net8.0\simpleClass.deps.json
+C:\users\paloftzer\desktop\everything\coding\jensen\simpleClass\bin\Debug\net8.0\simpleClass.runtimeconfig.json
+C:\users\paloftzer\desktop\everything\coding\jensen\simpleClass\bin\Debug\net8.0\simpleClass.dll
+C:\users\paloftzer\desktop\everything\coding\jensen\simpleClass\bin\Debug\net8.0\simpleClass.pdb
+C:\users\paloftzer\desktop\everything\coding\jensen\simpleClass\obj\Debug\net8.0\simpleClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\users\paloftzer\desktop\everything\coding\jensen\simpleClass\obj\Debug\net8.0\simpleClass.AssemblyInfoInputs.cache
+C:\users\paloftzer\desktop\everything\coding\jensen\simpleClass\obj\Debug\net8.0\simpleClass.AssemblyInfo.cs
+C:\users\paloftzer\desktop\everything\coding\jensen\simpleClass\obj\Debug\net8.0\simpleClass.csproj.CoreCompileInputs.cache
+C:\users\paloftzer\desktop\everything\coding\jensen\simpleClass\obj\Debug\net8.0\simpleClass.dll
+C:\users\paloftzer\desktop\everything\coding\jensen\simpleClass\obj\Debug\net8.0\refint\simpleClass.dll
+C:\users\paloftzer\desktop\everything\coding\jensen\simpleClass\obj\Debug\net8.0\simpleClass.pdb
+C:\users\paloftzer\desktop\everything\coding\jensen\simpleClass\obj\Debug\net8.0\simpleClass.genruntimeconfig.cache
+C:\users\paloftzer\desktop\everything\coding\jensen\simpleClass\obj\Debug\net8.0\ref\simpleClass.dll

@@ -1,0 +1,14 @@
+C:\Users\Administratör\desktop\Jensen\lists\bin\Debug\net8.0\lists.exe
+C:\Users\Administratör\desktop\Jensen\lists\bin\Debug\net8.0\lists.deps.json
+C:\Users\Administratör\desktop\Jensen\lists\bin\Debug\net8.0\lists.runtimeconfig.json
+C:\Users\Administratör\desktop\Jensen\lists\bin\Debug\net8.0\lists.dll
+C:\Users\Administratör\desktop\Jensen\lists\bin\Debug\net8.0\lists.pdb
+C:\Users\Administratör\desktop\Jensen\lists\obj\Debug\net8.0\lists.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administratör\desktop\Jensen\lists\obj\Debug\net8.0\lists.AssemblyInfoInputs.cache
+C:\Users\Administratör\desktop\Jensen\lists\obj\Debug\net8.0\lists.AssemblyInfo.cs
+C:\Users\Administratör\desktop\Jensen\lists\obj\Debug\net8.0\lists.csproj.CoreCompileInputs.cache
+C:\Users\Administratör\desktop\Jensen\lists\obj\Debug\net8.0\lists.dll
+C:\Users\Administratör\desktop\Jensen\lists\obj\Debug\net8.0\refint\lists.dll
+C:\Users\Administratör\desktop\Jensen\lists\obj\Debug\net8.0\lists.pdb
+C:\Users\Administratör\desktop\Jensen\lists\obj\Debug\net8.0\lists.genruntimeconfig.cache
+C:\Users\Administratör\desktop\Jensen\lists\obj\Debug\net8.0\ref\lists.dll

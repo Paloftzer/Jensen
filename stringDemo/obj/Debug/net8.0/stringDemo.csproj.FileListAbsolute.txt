@@ -1,0 +1,14 @@
+C:\users\paloftzer\Desktop\Everything\Coding\stringDemo\bin\Debug\net8.0\stringDemo.exe
+C:\users\paloftzer\Desktop\Everything\Coding\stringDemo\bin\Debug\net8.0\stringDemo.deps.json
+C:\users\paloftzer\Desktop\Everything\Coding\stringDemo\bin\Debug\net8.0\stringDemo.runtimeconfig.json
+C:\users\paloftzer\Desktop\Everything\Coding\stringDemo\bin\Debug\net8.0\stringDemo.dll
+C:\users\paloftzer\Desktop\Everything\Coding\stringDemo\bin\Debug\net8.0\stringDemo.pdb
+C:\users\paloftzer\Desktop\Everything\Coding\stringDemo\obj\Debug\net8.0\stringDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\users\paloftzer\Desktop\Everything\Coding\stringDemo\obj\Debug\net8.0\stringDemo.AssemblyInfoInputs.cache
+C:\users\paloftzer\Desktop\Everything\Coding\stringDemo\obj\Debug\net8.0\stringDemo.AssemblyInfo.cs
+C:\users\paloftzer\Desktop\Everything\Coding\stringDemo\obj\Debug\net8.0\stringDemo.csproj.CoreCompileInputs.cache
+C:\users\paloftzer\Desktop\Everything\Coding\stringDemo\obj\Debug\net8.0\stringDemo.dll
+C:\users\paloftzer\Desktop\Everything\Coding\stringDemo\obj\Debug\net8.0\refint\stringDemo.dll
+C:\users\paloftzer\Desktop\Everything\Coding\stringDemo\obj\Debug\net8.0\stringDemo.pdb
+C:\users\paloftzer\Desktop\Everything\Coding\stringDemo\obj\Debug\net8.0\stringDemo.genruntimeconfig.cache
+C:\users\paloftzer\Desktop\Everything\Coding\stringDemo\obj\Debug\net8.0\ref\stringDemo.dll

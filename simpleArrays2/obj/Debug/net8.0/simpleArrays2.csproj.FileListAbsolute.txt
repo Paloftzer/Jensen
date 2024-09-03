@@ -1,0 +1,14 @@
+C:\users\paloftzer\Desktop\Everything\Coding\simplearrays2\bin\Debug\net8.0\simpleArrays2.exe
+C:\users\paloftzer\Desktop\Everything\Coding\simplearrays2\bin\Debug\net8.0\simpleArrays2.deps.json
+C:\users\paloftzer\Desktop\Everything\Coding\simplearrays2\bin\Debug\net8.0\simpleArrays2.runtimeconfig.json
+C:\users\paloftzer\Desktop\Everything\Coding\simplearrays2\bin\Debug\net8.0\simpleArrays2.dll
+C:\users\paloftzer\Desktop\Everything\Coding\simplearrays2\bin\Debug\net8.0\simpleArrays2.pdb
+C:\users\paloftzer\Desktop\Everything\Coding\simplearrays2\obj\Debug\net8.0\simpleArrays2.GeneratedMSBuildEditorConfig.editorconfig
+C:\users\paloftzer\Desktop\Everything\Coding\simplearrays2\obj\Debug\net8.0\simpleArrays2.AssemblyInfoInputs.cache
+C:\users\paloftzer\Desktop\Everything\Coding\simplearrays2\obj\Debug\net8.0\simpleArrays2.AssemblyInfo.cs
+C:\users\paloftzer\Desktop\Everything\Coding\simplearrays2\obj\Debug\net8.0\simpleArrays2.csproj.CoreCompileInputs.cache
+C:\users\paloftzer\Desktop\Everything\Coding\simplearrays2\obj\Debug\net8.0\simpleArrays2.dll
+C:\users\paloftzer\Desktop\Everything\Coding\simplearrays2\obj\Debug\net8.0\refint\simpleArrays2.dll
+C:\users\paloftzer\Desktop\Everything\Coding\simplearrays2\obj\Debug\net8.0\simpleArrays2.pdb
+C:\users\paloftzer\Desktop\Everything\Coding\simplearrays2\obj\Debug\net8.0\simpleArrays2.genruntimeconfig.cache
+C:\users\paloftzer\Desktop\Everything\Coding\simplearrays2\obj\Debug\net8.0\ref\simpleArrays2.dll

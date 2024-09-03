@@ -1,0 +1,14 @@
+C:\users\paloftzer\Desktop\Everything\Coding\namespaceDemo\bin\Debug\net8.0\namespaceDemo.exe
+C:\users\paloftzer\Desktop\Everything\Coding\namespaceDemo\bin\Debug\net8.0\namespaceDemo.deps.json
+C:\users\paloftzer\Desktop\Everything\Coding\namespaceDemo\bin\Debug\net8.0\namespaceDemo.runtimeconfig.json
+C:\users\paloftzer\Desktop\Everything\Coding\namespaceDemo\bin\Debug\net8.0\namespaceDemo.dll
+C:\users\paloftzer\Desktop\Everything\Coding\namespaceDemo\bin\Debug\net8.0\namespaceDemo.pdb
+C:\users\paloftzer\Desktop\Everything\Coding\namespaceDemo\obj\Debug\net8.0\namespaceDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\users\paloftzer\Desktop\Everything\Coding\namespaceDemo\obj\Debug\net8.0\namespaceDemo.AssemblyInfoInputs.cache
+C:\users\paloftzer\Desktop\Everything\Coding\namespaceDemo\obj\Debug\net8.0\namespaceDemo.AssemblyInfo.cs
+C:\users\paloftzer\Desktop\Everything\Coding\namespaceDemo\obj\Debug\net8.0\namespaceDemo.csproj.CoreCompileInputs.cache
+C:\users\paloftzer\Desktop\Everything\Coding\namespaceDemo\obj\Debug\net8.0\namespaceDemo.dll
+C:\users\paloftzer\Desktop\Everything\Coding\namespaceDemo\obj\Debug\net8.0\refint\namespaceDemo.dll
+C:\users\paloftzer\Desktop\Everything\Coding\namespaceDemo\obj\Debug\net8.0\namespaceDemo.pdb
+C:\users\paloftzer\Desktop\Everything\Coding\namespaceDemo\obj\Debug\net8.0\namespaceDemo.genruntimeconfig.cache
+C:\users\paloftzer\Desktop\Everything\Coding\namespaceDemo\obj\Debug\net8.0\ref\namespaceDemo.dll

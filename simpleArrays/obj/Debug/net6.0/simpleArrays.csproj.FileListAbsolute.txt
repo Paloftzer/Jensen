@@ -1,0 +1,15 @@
+C:\users\paloftzer\desktop\everything\coding\simpleArrays\bin\Debug\net6.0\simpleArrays.exe
+C:\users\paloftzer\desktop\everything\coding\simpleArrays\bin\Debug\net6.0\simpleArrays.deps.json
+C:\users\paloftzer\desktop\everything\coding\simpleArrays\bin\Debug\net6.0\simpleArrays.runtimeconfig.json
+C:\users\paloftzer\desktop\everything\coding\simpleArrays\bin\Debug\net6.0\simpleArrays.dll
+C:\users\paloftzer\desktop\everything\coding\simpleArrays\bin\Debug\net6.0\simpleArrays.pdb
+C:\users\paloftzer\desktop\everything\coding\simpleArrays\obj\Debug\net6.0\simpleArrays.csproj.AssemblyReference.cache
+C:\users\paloftzer\desktop\everything\coding\simpleArrays\obj\Debug\net6.0\simpleArrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\users\paloftzer\desktop\everything\coding\simpleArrays\obj\Debug\net6.0\simpleArrays.AssemblyInfoInputs.cache
+C:\users\paloftzer\desktop\everything\coding\simpleArrays\obj\Debug\net6.0\simpleArrays.AssemblyInfo.cs
+C:\users\paloftzer\desktop\everything\coding\simpleArrays\obj\Debug\net6.0\simpleArrays.csproj.CoreCompileInputs.cache
+C:\users\paloftzer\desktop\everything\coding\simpleArrays\obj\Debug\net6.0\simpleArrays.dll
+C:\users\paloftzer\desktop\everything\coding\simpleArrays\obj\Debug\net6.0\refint\simpleArrays.dll
+C:\users\paloftzer\desktop\everything\coding\simpleArrays\obj\Debug\net6.0\simpleArrays.pdb
+C:\users\paloftzer\desktop\everything\coding\simpleArrays\obj\Debug\net6.0\simpleArrays.genruntimeconfig.cache
+C:\users\paloftzer\desktop\everything\coding\simpleArrays\obj\Debug\net6.0\ref\simpleArrays.dll
