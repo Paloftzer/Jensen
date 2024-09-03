@@ -15,5 +15,10 @@ class Program
         {
             Console.WriteLine($"Manufacturer: {vehicles.Pop()}");
         }
+
+        foreach(var vehicle in vehicles)
+        {
+            Console.WriteLine($"Manufacturer : {vehicle}");
+        }
     }
 }
