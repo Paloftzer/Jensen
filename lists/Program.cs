@@ -1,6 +1,4 @@
-﻿using System.Collections;
-
-namespace lists;
+﻿namespace lists;
 
 class Program
 {
