@@ -6,19 +6,20 @@ class Program
     static void Main()
     {
         BankAccount myAccount = new();
-        myAccount.SetAccountNumber("ABC123");
-        Console.WriteLine($"Your account number is: {myAccount.GetAccountNumber()}");
+        myAccount.AccountNumber = "ABC123";
+        // Console.WriteLine($"Your account number is: {myAccount.AccountNumber()}");
+        Console.WriteLine("Your account number is: {0}", myAccount.AccountNumber);
 
         BankAccount secondAccount = new("XYZ789");
         BankAccount thirdAccount = new(500,"XYZ789");
 
         myAccount.Deposit(500);
 
-        GetBalance(myAccount);
+        // GetBalance(myAccount);
 
         myAccount.Deposit(700);
 
-        GetBalance(myAccount);
+        // GetBalance(myAccount);
 
         try
         {
@@ -29,7 +30,7 @@ class Program
             Console.WriteLine($"Something went wrong. Please try again. Error: {ex.Message}");
         }
 
-        GetBalance(myAccount);
+        // GetBalance(myAccount);
 
         Console.WriteLine(myAccount.ToString());
     }

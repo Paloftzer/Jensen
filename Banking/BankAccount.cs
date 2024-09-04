@@ -7,10 +7,27 @@ public class BankAccount
     private readonly decimal _interestRate;
     private string _accountNumber;
 
+    // Properties
+    public string AccountNumber
+    {
+        get { return _accountNumber;}
+        set { _accountNumber = value; }
+    }
+
+    public decimal Balance
+    {
+        get { return _balance; }
+    }
+
+    public decimal InterestRate
+    {
+        get { return _interestRate; }
+    }
+    
     // Getters and setters
 
     // Getter
-    public static void GetBalance(BankAccount account)
+    /* public static void GetBalance(BankAccount account)
     {
         decimal balance = account._balance;
         decimal interestRate = account._interestRate;
@@ -41,7 +58,7 @@ public class BankAccount
     public void SetAccountNumber(string accountNumber)
     {
         _accountNumber = accountNumber;
-    }
+    } */
 
     // Constructor method
     public BankAccount()
