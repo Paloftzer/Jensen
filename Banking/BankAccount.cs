@@ -5,14 +5,50 @@ public class BankAccount
     // Declare the information that should be stored in the object
     private decimal _balance;
     private readonly decimal _interestRate;
-    public string AccountNumber;
+    private string _accountNumber;
+
+    // Getters and setters
+
+    // Getter
+    public static void GetBalance(BankAccount account)
+    {
+        decimal balance = account._balance;
+        decimal interestRate = account._interestRate;
+
+        if (balance >= 1000)
+        {
+            Console.WriteLine($"Your current balance is: {balance}\nYour current interest rate is: {interestRate}");
+        }
+        else 
+        {
+            Console.WriteLine($"Your current balance is: {balance}");
+        }
+    }
+
+    // Getter
+    public decimal GetInterestRate()
+    {
+        return _interestRate;
+    }
+
+    // Getter
+    public string GetAccountNumber()
+    {
+        return _accountNumber;
+    }
+
+    // Setter
+    public void SetAccountNumber(string accountNumber)
+    {
+        _accountNumber = accountNumber;
+    }
 
     // Constructor method
     public BankAccount()
     {
         _balance = 0.00m;
         _interestRate = 1.025m;
-        AccountNumber = "";
+        _accountNumber = "";
     }
 
     // Overloaded constructors
@@ -20,14 +56,14 @@ public class BankAccount
     {
         _balance = 0.00m;
         _interestRate = 1.025m;
-        AccountNumber = accountNumber;
+        _accountNumber = accountNumber;
     }
 
     public BankAccount(decimal initialBalance, string accountNumber)
     {
         _balance = initialBalance;
         _interestRate = 1.025m;
-        AccountNumber = accountNumber;
+        _accountNumber = accountNumber;
     }
 
     // Methods
@@ -53,23 +89,8 @@ public class BankAccount
         }
     }
 
-    public static void DisplayBalance(BankAccount account)
-    {
-        decimal balance = account._balance;
-        decimal interestRate = account._interestRate;
-
-        if (balance >= 1000)
-        {
-            Console.WriteLine($"Your current balance is: {balance}\nYour current interest rate is: {interestRate}");
-        }
-        else 
-        {
-            Console.WriteLine($"Your current balance is: {balance}");
-        }
-    }
-
     public override string ToString()
     {
-        return $"Account Number: {AccountNumber}\nBalance: {_balance}";
+        return $"Account Number: {_accountNumber}\nBalance: {_balance}";
     }
 }
