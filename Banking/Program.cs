@@ -14,15 +14,13 @@ class Program
         BankAccount thirdAccount = new(500,"XYZ789");
 
         myAccount.Deposit(500);
-
-        decimal balance = myAccount.Balance;
-        Console.WriteLine($"Your current balance is: {balance}");
+        
+        Console.WriteLine($"Your current balance is: {myAccount.Balance}");
         // GetBalance(myAccount);
 
         myAccount.Deposit(700);
 
-        balance = myAccount.Balance;
-        Console.WriteLine($"Your current balance is: {balance}");
+        Console.WriteLine($"Your current balance is: {myAccount.Balance}");
         // GetBalance(myAccount);
 
         try
@@ -34,8 +32,7 @@ class Program
             Console.WriteLine($"Something went wrong. Please try again. Error: {ex.Message}");
         }
 
-        balance = myAccount.Balance;
-        Console.WriteLine($"Your current balance is: {balance}");
+        Console.WriteLine($"Your current balance is: {myAccount.Balance}");
         // GetBalance(myAccount);
 
         Console.WriteLine(myAccount.ToString());
