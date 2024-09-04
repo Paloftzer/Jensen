@@ -1,0 +1,15 @@
+C:\Users\Administratör\desktop\jensen\banking\bin\Debug\net8.0\Banking.exe
+C:\Users\Administratör\desktop\jensen\banking\bin\Debug\net8.0\Banking.deps.json
+C:\Users\Administratör\desktop\jensen\banking\bin\Debug\net8.0\Banking.runtimeconfig.json
+C:\Users\Administratör\desktop\jensen\banking\bin\Debug\net8.0\Banking.dll
+C:\Users\Administratör\desktop\jensen\banking\bin\Debug\net8.0\Banking.pdb
+C:\Users\Administratör\desktop\jensen\banking\obj\Debug\net8.0\Banking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administratör\desktop\jensen\banking\obj\Debug\net8.0\Banking.AssemblyInfoInputs.cache
+C:\Users\Administratör\desktop\jensen\banking\obj\Debug\net8.0\Banking.AssemblyInfo.cs
+C:\Users\Administratör\desktop\jensen\banking\obj\Debug\net8.0\Banking.csproj.CoreCompileInputs.cache
+C:\Users\Administratör\desktop\jensen\banking\obj\Debug\net8.0\Banking.sourcelink.json
+C:\Users\Administratör\desktop\jensen\banking\obj\Debug\net8.0\Banking.dll
+C:\Users\Administratör\desktop\jensen\banking\obj\Debug\net8.0\refint\Banking.dll
+C:\Users\Administratör\desktop\jensen\banking\obj\Debug\net8.0\Banking.pdb
+C:\Users\Administratör\desktop\jensen\banking\obj\Debug\net8.0\Banking.genruntimeconfig.cache
+C:\Users\Administratör\desktop\jensen\banking\obj\Debug\net8.0\ref\Banking.dll
