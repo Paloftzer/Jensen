@@ -6,12 +6,18 @@ public class BankAccount
     private decimal _balance;
     private readonly decimal _interestRate;
     private string _accountNumber;
+    private readonly DateTime _createdDate;
 
     // Properties
     public string AccountNumber
     {
         get { return _accountNumber;}
         set { _accountNumber = value; }
+    }
+
+    public string CreatedAt
+    {
+        get { return _createdDate.ToShortDateString();}
     }
 
     public decimal Balance
@@ -66,6 +72,7 @@ public class BankAccount
         _balance = 0.00m;
         _interestRate = 1.025m;
         _accountNumber = "";
+        _createdDate = DateTime.Now;
     }
 
     // Overloaded constructors
@@ -74,6 +81,7 @@ public class BankAccount
         _balance = 0.00m;
         _interestRate = 1.025m;
         _accountNumber = accountNumber;
+        _createdDate = DateTime.Now;
     }
 
     public BankAccount(decimal initialBalance, string accountNumber)
@@ -81,6 +89,7 @@ public class BankAccount
         _balance = initialBalance;
         _interestRate = 1.025m;
         _accountNumber = accountNumber;
+        _createdDate = DateTime.Now;
     }
 
     // Methods
