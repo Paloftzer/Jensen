@@ -4,10 +4,33 @@ public class BankAccount
 {
     // Declare the information that should be stored in the object
     private decimal _balance;
-    private decimal _interestRate = 1.025m;
-    public string AccountNumber = "";
+    private readonly decimal _interestRate;
+    public string AccountNumber;
 
-    // What the object should be used for
+    // Constructor method
+    public BankAccount()
+    {
+        _balance = 0.00m;
+        _interestRate = 1.025m;
+        AccountNumber = "";
+    }
+
+    // Overloaded constructors
+    public BankAccount(string accountNumber)
+    {
+        _balance = 0.00m;
+        _interestRate = 1.025m;
+        AccountNumber = accountNumber;
+    }
+
+    public BankAccount(decimal initialBalance, string accountNumber)
+    {
+        _balance = initialBalance;
+        _interestRate = 1.025m;
+        AccountNumber = accountNumber;
+    }
+
+    // Methods
     public void Deposit(int amount)
     {
         _balance += amount;
