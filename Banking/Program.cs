@@ -5,7 +5,9 @@ class Program
 {
     static void Main()
     {
-        BankAccount myAccount = new("ABC123");
+        BankAccount myAccount = new();
+        myAccount.SetAccountNumber("ABC123");
+        Console.WriteLine($"Your account number is: {myAccount.GetAccountNumber()}");
 
         BankAccount secondAccount = new("XYZ789");
         BankAccount thirdAccount = new(500,"XYZ789");
