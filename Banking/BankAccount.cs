@@ -8,6 +8,12 @@ public class BankAccount
     private string _accountNumber;
     private readonly DateTime _createdDate;
 
+    // Example of "lazy" getter/setter
+    // use prop addon to automatically generate the property
+    /*
+    public decimal Balance { get; set; }
+    */
+
     // Properties
     public string AccountNumber
     {
