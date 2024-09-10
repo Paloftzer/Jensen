@@ -28,16 +28,14 @@ class Program
         invoice.SenderReferenceEmail = "Hjonhdho@company#3.com";
 
         /* Invoice */
-        var item = new InvoiceItem();
-        item.AddProduct(productId:1, productName:"F/A-18C Hornet", price:33500000.00m, amount:1);
+        var item = new { ProductName = "F/A-18C Hornet", Price=33500000.00, Amount = 1, LineSum = 33500000.00};
         invoice.AddInvoiceItem(item);
-        item = new();
-        item.AddProduct(productId:2, productName:"F-22 Raptor", price:190000000.00m, amount:3);
+        item = new { ProductName = "F-22 Raptor", Price = 190000000.00, Amount = 3, LineSum = 570000000.00};
         invoice.AddInvoiceItem(item);
 
-        foreach(var invoiceItem in invoice.InvoiceItems)
+        foreach(dynamic invoiceItem in invoice.InvoiceItems)
         {
-            Console.WriteLine(invoiceItem);
+            Console.WriteLine($"Product: {invoiceItem.ProductName}, Price: {invoiceItem.Price:N2}, Amount: {invoiceItem.Amount}, Line Sum: {invoiceItem.LineSum:N2}");
         }
 
         Console.WriteLine(invoice);

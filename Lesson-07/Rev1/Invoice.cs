@@ -5,15 +5,13 @@ namespace InvoiceApp;
 
 public class Invoice
 {
-    /* Properties */
-
     /* Basic information */
-    public int InvoiceNumber { get; }
-    public DateTime InvoiceDate { get; }
-    public DateTime DueDate { get; }
-    public decimal TotalValue { get; private set; }
+    public int InvoiceNumber { get; set; }
+    public DateTime InvoiceDate { get; set; }
+    public DateTime DueDate { get; set; }
+    public decimal TotalValue { get; set; }
     public int PaymentTerms { get; set; }
-    public List<InvoiceItem> InvoiceItems { get; }
+    public List<object> InvoiceItems { get; set; }
 
     /* Sender Information */
     public string SenderName { get; set; }
@@ -53,7 +51,7 @@ public class Invoice
 
         /* Payment details initiation */
         InvoiceNumber = new Random().Next(100000, 999999);
-        InvoiceDate = DateTime.Now.Date;
+        InvoiceDate = DateTime.Now;
         PaymentTerms = 30;
         DueDate = InvoiceDate.AddDays(PaymentTerms);
 
@@ -62,11 +60,21 @@ public class Invoice
     }
 
     /* Methods */
-    public void AddInvoiceItem(InvoiceItem invoiceItem)
+    public void AddInvoiceItem(object invoiceItem)
     {
         InvoiceItems.Add(invoiceItem);
 
-        TotalValue += invoiceItem.LineSum;
+        // Don't use this but it works
+        /* var t = invoiceItem.GetType();
+        PropertyInfo[] properties = t.GetProperties();
+        foreach (var property in properties)
+        {
+            if (property.Name == "LineSum")
+            {
+                var lineSum = property.GetValue(invoiceItem);
+                TotalValue += Convert.ToDecimal(lineSum);
+            }
+        } */
     }
 
     public override string ToString()
