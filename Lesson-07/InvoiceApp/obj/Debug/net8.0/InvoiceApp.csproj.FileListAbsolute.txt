@@ -1,0 +1,14 @@
+C:\Users\Paloftzer\Desktop\Everything\Coding\Jensen\Lesson-07\InvoiceApp\bin\Debug\net8.0\InvoiceApp.exe
+C:\Users\Paloftzer\Desktop\Everything\Coding\Jensen\Lesson-07\InvoiceApp\bin\Debug\net8.0\InvoiceApp.deps.json
+C:\Users\Paloftzer\Desktop\Everything\Coding\Jensen\Lesson-07\InvoiceApp\bin\Debug\net8.0\InvoiceApp.runtimeconfig.json
+C:\Users\Paloftzer\Desktop\Everything\Coding\Jensen\Lesson-07\InvoiceApp\bin\Debug\net8.0\InvoiceApp.dll
+C:\Users\Paloftzer\Desktop\Everything\Coding\Jensen\Lesson-07\InvoiceApp\bin\Debug\net8.0\InvoiceApp.pdb
+C:\Users\Paloftzer\Desktop\Everything\Coding\Jensen\Lesson-07\InvoiceApp\obj\Debug\net8.0\InvoiceApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paloftzer\Desktop\Everything\Coding\Jensen\Lesson-07\InvoiceApp\obj\Debug\net8.0\InvoiceApp.AssemblyInfoInputs.cache
+C:\Users\Paloftzer\Desktop\Everything\Coding\Jensen\Lesson-07\InvoiceApp\obj\Debug\net8.0\InvoiceApp.AssemblyInfo.cs
+C:\Users\Paloftzer\Desktop\Everything\Coding\Jensen\Lesson-07\InvoiceApp\obj\Debug\net8.0\InvoiceApp.csproj.CoreCompileInputs.cache
+C:\Users\Paloftzer\Desktop\Everything\Coding\Jensen\Lesson-07\InvoiceApp\obj\Debug\net8.0\InvoiceApp.dll
+C:\Users\Paloftzer\Desktop\Everything\Coding\Jensen\Lesson-07\InvoiceApp\obj\Debug\net8.0\refint\InvoiceApp.dll
+C:\Users\Paloftzer\Desktop\Everything\Coding\Jensen\Lesson-07\InvoiceApp\obj\Debug\net8.0\InvoiceApp.pdb
+C:\Users\Paloftzer\Desktop\Everything\Coding\Jensen\Lesson-07\InvoiceApp\obj\Debug\net8.0\InvoiceApp.genruntimeconfig.cache
+C:\Users\Paloftzer\Desktop\Everything\Coding\Jensen\Lesson-07\InvoiceApp\obj\Debug\net8.0\ref\InvoiceApp.dll
