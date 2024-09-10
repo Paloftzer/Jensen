@@ -12,3 +12,4 @@ C:\Users\Paloftzer\Desktop\Everything\Coding\Jensen\Lesson-07\InvoiceApp\obj\Deb
 C:\Users\Paloftzer\Desktop\Everything\Coding\Jensen\Lesson-07\InvoiceApp\obj\Debug\net8.0\InvoiceApp.pdb
 C:\Users\Paloftzer\Desktop\Everything\Coding\Jensen\Lesson-07\InvoiceApp\obj\Debug\net8.0\InvoiceApp.genruntimeconfig.cache
 C:\Users\Paloftzer\Desktop\Everything\Coding\Jensen\Lesson-07\InvoiceApp\obj\Debug\net8.0\ref\InvoiceApp.dll
+C:\Users\Paloftzer\Desktop\Everything\Coding\Jensen\Lesson-07\InvoiceApp\obj\Debug\net8.0\InvoiceApp.sourcelink.json
