@@ -5,31 +5,22 @@ public class InvoiceItem
     /* Properties */
 
     /*  Product information initiation */
-    public int ProductId { get; set; }
-    public string ProductName { get; set; }
-    public decimal Price { get; set; }
-    public int Amount { get; set; }
+    public int NumberOfItems { get; set; }
     public decimal LineSum { get; set; }
 
-    /* Constructor */
-    public InvoiceItem()
-    {
-        ProductName = "";
-    }
+    // Composition
+    public Product Product { get; set; }
 
-    /* Methods */
-    public void AddProduct(int productId, string productName, decimal price, int amount)
+    /* Constructor */
+    public InvoiceItem(Product product, int numberOfItems)
     {
-        // Move the parameters to the properties
-        ProductId = productId;
-        ProductName = productName;
-        Price = price;
-        Amount = amount;
-        LineSum = Price * Amount;
+        Product = product;
+        NumberOfItems = numberOfItems;
+        LineSum = Product.Price * NumberOfItems;
     }
 
     public override string ToString()
     {
-        return $"Product name: {ProductName} - Price: {Price:N2} - Amount: {Amount} - Line Sum: {LineSum:N2}";
+        return $"Product name: {Product.Name} - Price: {Product.Price:N2} - Number of items: {NumberOfItems} - Line Sum: {LineSum:N2}";
     }
 }

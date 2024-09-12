@@ -28,12 +28,32 @@ class Program
         invoice.SenderReferenceEmail = "Hjonhdho@company#3.com";
 
         /* Invoice */
-        var item = new InvoiceItem();
-        item.AddProduct(productId:1, productName:"F/A-18C Hornet", price:33500000.00m, amount:1);
-        invoice.AddInvoiceItem(item);
-        item = new();
-        item.AddProduct(productId:2, productName:"F-22 Raptor", price:190000000.00m, amount:3);
-        invoice.AddInvoiceItem(item);
+        // Product product = new();
+        // product.ItemNumber = 1;
+        // product.Name = "F/A-18C Hornet";
+        // product.Price = 33500000.00m;
+
+        // InvoiceItem item = new InvoiceItem(product, 1);
+        // invoice.AddInvoiceItem(item);
+
+        // product = new()
+        // {
+        //     ItemNumber = 2,
+        //     Name = "F-22 Raptor",
+        //     Price = 190000000.00m
+        // };
+
+        // item = new InvoiceItem(product, 3);
+        // invoice.AddInvoiceItem(item);
+
+        // InvoiceItem item = new InvoiceItem(new Product { ItemNumber = 1, Name = "F/A-18C Hornet", Price = 33500000.00m }, 1);
+        // invoice.AddInvoiceItem(item);
+
+        // item = new InvoiceItem(new Product { ItemNumber = 2, Name = "F-22 Raptor", Price = 190000000.00m }, 3);
+        // invoice.AddInvoiceItem(item);
+
+        invoice.AddInvoiceItem(new InvoiceItem(new Product { ItemNumber = 1, Name = "F/A-18C Hornet", Price = 33500000.00m }, 1));
+        invoice.AddInvoiceItem(new InvoiceItem(new Product { ItemNumber = 2, Name = "F-22 Raptor", Price = 190000000.00m }, 1));
 
         foreach(var invoiceItem in invoice.InvoiceItems)
         {
