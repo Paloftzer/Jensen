@@ -32,12 +32,10 @@ public class Customer
     /* Private Methods */
     private void FindCustomer()
     {
-
         Name = "John Doe";
         Address = "123 Main St";
         PostalCode = "424 12";
         City = "Anytown";
         Reference = "Jane Doe";
-
     }
 }

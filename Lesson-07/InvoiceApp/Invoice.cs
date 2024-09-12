@@ -9,22 +9,17 @@ public class Invoice
     public DateTime InvoiceDate { get; }
     public DateTime DueDate { get; }
     public decimal TotalValue { get; private set; }
-    public List<InvoiceItem> InvoiceItems { get; }
-    public Customer Customer { get; set;}
 
-    /* Sender Information */
-    public string SenderName { get; set; } = "";
-    public string SenderAddress { get; set; } = "";
-    public string SenderPostalCode { get; set; } = "";
-    public string SenderCity { get; set; } = "";
-    public string SenderPhoneNumber { get; set; } = "";
-    public string SenderReference { get; set; } = "";
-    public string SenderReferenceEmail { get; set; } = "";
+    public List<InvoiceItem> InvoiceItems { get; }
+
+    public Customer Customer { get; set;}
+    public Sender Sender { get; set; }
 
     /* Constructors */
     public Invoice(int customerNumber)
     {
         Customer = new Customer(customerNumber);
+        Sender = new Sender();
 
         /* Payment details initiation */
         InvoiceNumber = new Random().Next(100000, 999999);
