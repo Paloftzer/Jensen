@@ -40,7 +40,7 @@ public class Invoice
 
     public override string ToString()
     {
-        return $"Invoice Number: {InvoiceNumber} - Invoice Date: {InvoiceDate} - Due Date: {DueDate} - {Customer} - Total Value: {TotalValue:N2}";
+        return $"{Sender}\n{Customer}\nInvoice Number: {InvoiceNumber} - Invoice Date: {InvoiceDate} - Due Date: {DueDate}\nTotal Value: ${TotalValue:N2}";
     }
     
 }

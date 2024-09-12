@@ -29,7 +29,7 @@ public class Product
     /* Methods */
     public override string ToString()
     {
-        return $"Product Id: {ItemNumber} - Product Name: {Name} - Product Price: {Price}";
+        return $"Product Id: {ItemNumber} - Product Name: {Name} - Product Price: ${Price}";
     }
 
     /* Private Methods */

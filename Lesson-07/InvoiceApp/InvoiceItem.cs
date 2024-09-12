@@ -22,6 +22,6 @@ public class InvoiceItem
     /* Methods */
     public override string ToString()
     {
-        return $"Product name: {Product.Name} - Price: {Product.Price:N2} - Number of items: {NumberOfItems} - Line Sum: {LineSum:N2}";
+        return $"Product name: {Product.Name} - Price: ${Product.Price:N2} - Number of items: {NumberOfItems} - Line Sum: ${LineSum:N2}";
     }
 }
