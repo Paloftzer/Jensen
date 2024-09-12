@@ -9,7 +9,7 @@ class Program
         Console.WriteLine(invoice.ToString());
 
         /* Invoice base information */
-        
+
         /* Sender information */
         invoice.SenderName = "Company #3";
         invoice.SenderAddress = "456 Elm St";
@@ -24,6 +24,7 @@ class Program
         {
             invoice.AddInvoiceItem(new InvoiceItem(new Product(1), numberOfItems: 1));
             invoice.AddInvoiceItem(new InvoiceItem(new Product(2), numberOfItems: 3));
+            // Intentional simulated error
             invoice.AddInvoiceItem(new InvoiceItem(new Product(3), numberOfItems: 901));
         }
         catch (ArgumentException error)

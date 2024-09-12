@@ -13,26 +13,18 @@ public class Invoice
     public Customer Customer { get; set;}
 
     /* Sender Information */
-    public string SenderName { get; set; }
-    public string SenderAddress { get; set; }
-    public string SenderPostalCode { get; set; }
-    public string SenderCity { get; set; }
-    public string SenderPhoneNumber { get; set; }
-    public string SenderReference { get; set; }
-    public string SenderReferenceEmail { get; set; }
+    public string SenderName { get; set; } = "";
+    public string SenderAddress { get; set; } = "";
+    public string SenderPostalCode { get; set; } = "";
+    public string SenderCity { get; set; } = "";
+    public string SenderPhoneNumber { get; set; } = "";
+    public string SenderReference { get; set; } = "";
+    public string SenderReferenceEmail { get; set; } = "";
 
     /* Constructors */
     public Invoice(int customerNumber)
     {
-        /* Sender information initiation */
         Customer = new Customer(customerNumber);
-        SenderName = "";
-        SenderAddress = "";
-        SenderPostalCode = "";
-        SenderCity = "";
-        SenderPhoneNumber = "";
-        SenderReference = "";
-        SenderReferenceEmail = "";
 
         /* Payment details initiation */
         InvoiceNumber = new Random().Next(100000, 999999);
