@@ -11,7 +11,7 @@ public class InvoiceItem
     // Composition
     public Product Product { get; set; }
 
-    /* Constructor */
+    /* Constructors */
     public InvoiceItem(Product product, int numberOfItems)
     {
         Product = product;
@@ -19,6 +19,7 @@ public class InvoiceItem
         LineSum = Product.Price * NumberOfItems;
     }
 
+    /* Methods */
     public override string ToString()
     {
         return $"Product name: {Product.Name} - Price: {Product.Price:N2} - Number of items: {NumberOfItems} - Line Sum: {LineSum:N2}";

@@ -9,8 +9,8 @@ public class Invoice
     public DateTime InvoiceDate { get; }
     public DateTime DueDate { get; }
     public decimal TotalValue { get; private set; }
-    public int PaymentTerms { get; set; }
     public List<InvoiceItem> InvoiceItems { get; }
+    public Customer Customer { get; set;}
 
     /* Sender Information */
     public string SenderName { get; set; }
@@ -21,18 +21,11 @@ public class Invoice
     public string SenderReference { get; set; }
     public string SenderReferenceEmail { get; set; }
 
-    /* Customer Information */
-    public int CustomerNumber { get; set; }
-    public string CustomerName { get; set; }
-    public string CustomerAddress { get; set; }
-    public string CustomerPostalCode { get; set; }
-    public string CustomerCity { get; set; }
-    public string CustomerReference { get; set; }
-
     /* Constructors */
-    public Invoice()
+    public Invoice(int customerNumber)
     {
         /* Sender information initiation */
+        Customer = new Customer(customerNumber);
         SenderName = "";
         SenderAddress = "";
         SenderPostalCode = "";
@@ -41,18 +34,10 @@ public class Invoice
         SenderReference = "";
         SenderReferenceEmail = "";
 
-        /* Customer information initiation */
-        CustomerName = "";
-        CustomerAddress = "";
-        CustomerPostalCode = "";
-        CustomerCity = "";
-        CustomerReference = "";
-
         /* Payment details initiation */
         InvoiceNumber = new Random().Next(100000, 999999);
         InvoiceDate = DateTime.Now.Date;
-        PaymentTerms = 30;
-        DueDate = InvoiceDate.AddDays(PaymentTerms);
+        DueDate = InvoiceDate.AddDays(Customer.PaymentTerms);
 
         /* Initiate list of invoice rows */
         InvoiceItems = [];
@@ -68,7 +53,7 @@ public class Invoice
 
     public override string ToString()
     {
-        return $"Invoice Number; {InvoiceNumber} - Invoice Date: {InvoiceDate} - Due Date: {DueDate} - Customer: {CustomerName} - Total Value: {TotalValue:N2}";
+        return $"Invoice Number: {InvoiceNumber} - Invoice Date: {InvoiceDate} - Due Date: {DueDate} - {Customer} - Total Value: {TotalValue:N2}";
     }
     
 }

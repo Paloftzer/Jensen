@@ -4,20 +4,12 @@ class Program
 {
     static void Main()
     {
-        Invoice invoice = new();
+        Invoice invoice = new(2935678);
 
         Console.WriteLine(invoice.ToString());
 
         /* Invoice base information */
-
-        /* Customer information */
-        invoice.CustomerNumber = 2935678;
-        invoice.CustomerName = "John Doe";
-        invoice.CustomerAddress = "123 Main St";
-        invoice.CustomerPostalCode = "424 12";
-        invoice.CustomerCity = "Anytown";
-        invoice.CustomerReference = "Jane Doe";
-
+        
         /* Sender information */
         invoice.SenderName = "Company #3";
         invoice.SenderAddress = "456 Elm St";
@@ -28,10 +20,18 @@ class Program
         invoice.SenderReferenceEmail = "Hjonhdho@company#3.com";
 
         /* Invoice */
-        invoice.AddInvoiceItem(new InvoiceItem(new Product { ItemNumber = 1, Name = "F/A-18C Hornet", Price = 33500000.00m }, 1));
-        invoice.AddInvoiceItem(new InvoiceItem(new Product { ItemNumber = 2, Name = "F-22 Raptor", Price = 190000000.00m }, 1));
+        try
+        {
+            invoice.AddInvoiceItem(new InvoiceItem(new Product(1), numberOfItems: 1));
+            invoice.AddInvoiceItem(new InvoiceItem(new Product(2), numberOfItems: 3));
+            invoice.AddInvoiceItem(new InvoiceItem(new Product(3), numberOfItems: 901));
+        }
+        catch (ArgumentException error)
+        {
+            Console.WriteLine($"Something went wrong: {error.Message}");
+        }
 
-        foreach(var invoiceItem in invoice.InvoiceItems)
+        foreach (var invoiceItem in invoice.InvoiceItems)
         {
             Console.WriteLine(invoiceItem);
         }
