@@ -13,12 +13,9 @@ public class Customer
     public int PaymentTerms { get; set; } = 30;
 
     /* Constructors */
-    public Customer()
-    {
-        
-    }
+    public Customer() {}
 
-    public Customer(int customerNumber) : this()
+    public Customer(int customerNumber)
     {
         CustomerNumber = customerNumber;
         FindCustomer();

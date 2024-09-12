@@ -4,16 +4,16 @@ public class Product
 {
     /* Properties */
     public int ItemNumber { get; private set; }
-    public string Name { get; private set; }
+    public string Name { get; private set; } = "";
     public decimal Price { get; private set; }
 
     /* Constructors */
     public Product()
     {
-        Name = "";
+
     }
 
-    public Product(int itemNumber) : this()
+    public Product(int itemNumber)
     {
         ItemNumber = itemNumber;
         FindProduct();
@@ -21,7 +21,9 @@ public class Product
 
     public void AddNewProduct(int itemNumber, string name, decimal price)
     {
-        ItemNumber = 1;
+        ItemNumber = itemNumber;
+        Name = name;
+        Price = price;
     }
 
     /* Methods */
