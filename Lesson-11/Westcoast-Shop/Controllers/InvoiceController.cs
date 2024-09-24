@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace MyApp.Namespace
-{
+namespace Westcoast_Shop.Controllers;
     public class InvoiceController : Controller
     {
         // GET: Controllers
@@ -11,4 +10,3 @@ namespace MyApp.Namespace
         }
 
     }
-}
