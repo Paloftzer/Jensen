@@ -30,11 +30,6 @@ public class Invoice
         InvoiceItems = [];
     }
 
-    public Invoice(int customerNumber, DateTime dueDate) : this(customerNumber)
-    {
-        DueDate = dueDate;
-    }
-
     /* Methods */
     public void AddInvoiceItem(InvoiceItem invoiceItem)
     {
